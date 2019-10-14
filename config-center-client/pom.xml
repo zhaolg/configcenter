@@ -5,13 +5,15 @@
 	<parent>
 		<groupId>com.demo</groupId>
 		<artifactId>configcenter</artifactId>
-		<version>1.0.1</version>
+		<version>1.0.0</version>
 	</parent>
 
 	<groupId>com.demo</groupId>
 	<artifactId>config-center-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>config center</description>
+	<packaging>jar</packaging>
+
 
 
 	<properties>
@@ -44,7 +46,6 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -53,13 +54,5 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>

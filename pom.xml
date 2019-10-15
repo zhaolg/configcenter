@@ -11,8 +11,8 @@
     <modules>
         <module>config-center-common</module>
         <module>config-center-client</module>
-        <module>config-center-server</module>
         <module>config-center-registry-center</module>
+        <module>config-center-server</module>
     </modules>
 
     <properties>
